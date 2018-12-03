@@ -4,6 +4,45 @@ body{
     background-color: #4B0082;
     text-align: center;
   }
+
+  .sidenav {
+      height: 100%; /* Full-height: remove this if you want "auto" height */
+      width: 150px; /* Set the width of the sidebar */
+      position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1; /* Stay on top */
+      top: 0; /* Stay at the top */
+      left: 0;
+      background-color: #FF8C00; /* Black */
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 20px;
+  }
+
+  .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #4B0082;
+      display: block;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+
+  .main {
+      margin-left: 160px;
+      padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+  }
+
+  a {
+    color: black;
+  }
+
 h1{
   font-family:  'Pacifico', cursive;
   background: url(https://raw.githubusercontent.com/sfardy/supercoolwebsite/master/mango_the_2.jpg);
@@ -15,80 +54,37 @@ h1{
   border: 5px solid red;
    }
 
-button{
+   form{
+     margin-right: 50px;
+     margin-left: 200px;
+   }
 
-}
+   h3{
+     margin-right: 50px;
+     margin-left: 200px;
+   }
+
+   img{
+     border-radius: 100%;
+     margin-right: 50px;
+     margin-left: 200px;
+   }
+
+   blockquote{
+     margin-right: 50px;
+     margin-left: 200px;
+   }
+
+   .mission{
+     margin-right: 50px;
+     margin-left: 200px;
+   }
 
 h2{
   margin-right: 50px;
   margin-left: 200px;
 }
 
-h3{
-  margin-right: 50px;
-  margin-left: 200px;
-}
+button{
 
-.mission{
-  margin-right: 50px;
-  margin-left: 200px;
-}
-
-blockquote{
-  margin-right: 50px;
-  margin-left: 200px;
-}
-
-img{
-  border-radius: 100%;
-  margin-right: 50px;
-  margin-left: 200px;
-}
-
-h4{
-  margin-right: 50px;
-  margin-left: 200px;
-}
-
-a {
-  color: black;
-}
-
-form{
-  margin-right: 50px;
-  margin-left: 200px;
-}
-
-.sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 150px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #FF8C00; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #4B0082;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.main {
-    margin-left: 160px;
-    padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
 }
