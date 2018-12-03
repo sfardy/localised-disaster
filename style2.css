@@ -1,0 +1,63 @@
+body {
+margin-left: 140px;
+font-size: 14px;
+text-align:center;
+background: #4B0082
+}
+
+.sidenav {
+    height: 100%;
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#FF8C00 ;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#4B0082 ;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FF8C00;
+    background: url(https://raw.githubusercontent.com/sfardy/supercoolwebsite/master/mango_the_2.jpg);
+    background-size:auto;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+  color: #FF8C00;
+  font-size: 16px
+}
+
+p {
+color: #FF8C00;
+  }
+
+div {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    border: 2
+  }
