@@ -44,6 +44,11 @@ h1 {
     color: #FF8C00;
     background: url(https://raw.githubusercontent.com/sfardy/supercoolwebsite/master/mango_the_2.jpg);
     background-size:auto;
+    text-shadow: 2px 2px #ff0000;
+    margin-right: 50px;
+    margin-left: 200px;
+    border: 5px solid red;
+    margin-left: 120px
 }
 
 h3 {
@@ -59,5 +64,4 @@ color: #FF8C00;
 div {
     font-family: 'Pacifico', cursive;
     text-align: center;
-    border: 2
   }
